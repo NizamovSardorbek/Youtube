@@ -1,10 +1,13 @@
 import React from "react";
+import { Input, InputButton, InputWrap } from "./YoutubeStyle";
 
 const YoutubeSearch = () => {
   return (
     <div>
-        <div></div>
-      <input type="text" placeholder="Search Movies" />
+      <InputWrap>
+        <Input type="text" placeholder="Search Movies" />
+        <InputButton>Search</InputButton>
+      </InputWrap>
     </div>
   );
 };
