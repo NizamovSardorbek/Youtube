@@ -61,7 +61,8 @@ export const InputWrap = styled.div`
 `;
 
 export const Input = styled.input`
-  color: #4f2222;
+  /* color: #4f2222; */
+  color: #0c0808;
   font-size: 30px;
   padding: 7px 20%;
   background: grey;
@@ -86,5 +87,40 @@ export const InputButton = styled.button`
     color: red;
     background-color: black;
     cursor: pointer;
+  }
+`;
+
+// Search end
+
+// Table Start
+
+export const TableWrap = styled.div`
+background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  grid-gap: 80px;
+  border: 1px solid red;
+  padding: 5% 0;
+`;
+
+export const TableData = styled.div`
+  margin-left: 40px;
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+`;
+
+export const ImgTable = styled.img`
+  width: 200px;
+  height: 200px;
+`;
+
+export const NameTable = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  >h4{
+    color: white;
   }
 `;
