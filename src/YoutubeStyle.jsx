@@ -91,12 +91,17 @@ export const Input = styled.input`
   }
 `;
 export const InputButton = styled.button`
-  padding: 16px 2.5%;
+  font-size: 15px;
+  display: flex;
+  padding: 11px 2.3%;
   color: black;
   border-radius: 20px;
   box-shadow: 0px 7px 7px #9a2e2e;
-
   background-color: grey;
+  > i {
+    font-size: 18px;
+    margin-left: 4px;
+  }
   :active {
     transform: scale(0.3);
     transition: all 0.3s ease-in;
@@ -147,8 +152,8 @@ export const NameTable = styled.div`
   width: 100%;
   > i {
     color: red;
-    margin-left: 5px;
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 25px;
     :hover {
       color: white;
       cursor: pointer;
@@ -159,22 +164,6 @@ export const NameTable = styled.div`
     }
   }
 
-  > button {
-    background: grey;
-    padding: 6px 20px;
-    box-shadow: 0px 5px 7px #d21616;
-
-    :active {
-      transform: scale(0.3);
-      transition: all 0.3s ease-in;
-    }
-    border-radius: 50px;
-    :hover {
-      cursor: pointer;
-      background-color: red;
-      color: white;
-    }
-  }
   > h4 {
     color: white;
     :hover {

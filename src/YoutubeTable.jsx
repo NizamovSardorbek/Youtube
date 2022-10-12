@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Dates from "./YoutubeData";
 import { FiEdit } from "react-icons/fi";
+import { MdOutlineAutoDelete } from "react-icons/md";
 import {
   ImgTable,
   InputButton,
@@ -16,10 +17,12 @@ const YoutubeTable = () => {
         <TableData>
           <ImgTable src={value.url} alt="" />
           <NameTable>
-            <button>delete</button>
             <h4>{value.name}</h4>
             <i>
-              <FiEdit /> 
+              <MdOutlineAutoDelete />
+            </i>
+            <i>
+              <FiEdit />
             </i>
           </NameTable>
         </TableData>
