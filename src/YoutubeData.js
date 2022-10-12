@@ -1,8 +1,9 @@
+import garfield from "./assets/garfield.jpeg"
 const Dates = [
   {
     id: 1,
     name: "Qora Beva",
-    url: "https://uzstudio.tv/uploads/posts/2021-06/medium/1624991320_qora-beva-1.jpg",
+    url: {garfield},
     link: "https://www.freekino.net/movie/6-qora-beva",
   },
   {
