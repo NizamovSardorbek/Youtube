@@ -1,8 +1,11 @@
 import React from 'react'
+import { WrapAdd } from './YoutubeStyle'
 
 const YoutubeAdd = () => {
   return (
-    <div>YoutubeAdd</div>
+    <WrapAdd>
+      <button>Add Movies</button>
+    </WrapAdd>
   )
 }
 

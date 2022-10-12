@@ -15,9 +15,13 @@ export const WrapNavbar = styled.div`
   box-shadow: 7px 7px 7px #aa2424;
   > h4 {
     text-shadow: 7px 7px 7px #1b1212;
+
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
+    }
     :hover {
       text-shadow: 7px 7px 7px red;
-
       color: red;
       cursor: pointer;
     }
@@ -31,10 +35,14 @@ export const Nav = styled.div`
   align-items: center;
   justify-content: center;
   color: red;
+
   > h3 {
     text-shadow: 7px 7px 7px #a52727;
     cursor: pointer;
-
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
+    }
     :hover {
       color: white;
       text-shadow: 7px 7px 7px red;
@@ -46,6 +54,10 @@ export const Nav = styled.div`
     :hover {
       color: white;
       cursor: pointer;
+    }
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
     }
   }
 `;
@@ -85,6 +97,10 @@ export const InputButton = styled.button`
   box-shadow: 0px 7px 7px #9a2e2e;
 
   background-color: grey;
+  :active {
+    transform: scale(0.3);
+    transition: all 0.3s ease-in;
+  }
   :hover {
     color: red;
     background-color: black;
@@ -102,7 +118,6 @@ export const TableWrap = styled.div`
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   grid-gap: 80px;
-  border: 1px solid red;
   padding: 5% 0;
   height: 500px;
   overflow: auto;
@@ -129,13 +144,68 @@ export const ImgTable = styled.img`
 export const NameTable = styled.div`
   display: flex;
   align-items: center;
-  gap: 20px;
+  width: 100%;
+  > i {
+    color: red;
+    margin-left: 5px;
+    font-size: 20px;
+    :hover {
+      color: white;
+      cursor: pointer;
+    }
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
+    }
+  }
+
+  > button {
+    background: grey;
+    padding: 6px 20px;
+    box-shadow: 0px 5px 7px #d21616;
+
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
+    }
+    border-radius: 50px;
+    :hover {
+      cursor: pointer;
+      background-color: red;
+      color: white;
+    }
+  }
   > h4 {
     color: white;
     :hover {
       color: red;
       text-shadow: 7px 7px 7px #d21616;
       cursor: pointer;
+    }
+  }
+`;
+// Table End
+
+// Table Add
+
+export const WrapAdd = styled.div`
+  background-color: #0f0f0f;
+  > button {
+    color: #c6bdbd;
+    width: 200px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #828282;
+    box-shadow: 3px 7px 7px #aa2424;
+    font-size: 18px;
+    :hover {
+      color: red;
+      text-shadow: 7px 7px 7px #130606;
+      cursor: pointer;
+    }
+    :active {
+      transform: scale(0.3);
+      transition: all 0.3s ease-in;
     }
   }
 `;

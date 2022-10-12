@@ -7,7 +7,7 @@ const Dates = [
   },
   {
     id: 2,
-    name: "Shang-chi Legend of the ten rings",
+    name: "Shang-chi Legend ",
     url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
     link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
   },
@@ -104,7 +104,7 @@ const Dates = [
   },
   {
     id: 14,
-    name: "Shang-chi Legend of the ten rings",
+    name: "Shang-chi Legend ",
     url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
     link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
   },
@@ -116,7 +116,7 @@ const Dates = [
   },
   {
     id: 14,
-    name: "Shang-chi Legend of the ten rings",
+    name: "Shang-chi Legend ",
     url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
     link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
   },
@@ -128,7 +128,7 @@ const Dates = [
   },
   {
     id: 14,
-    name: "Shang-chi Legend of the ten rings",
+    name: "Shang-chi Legend ",
     url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
     link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
   },
