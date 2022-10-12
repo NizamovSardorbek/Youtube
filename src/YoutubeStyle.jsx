@@ -12,7 +12,7 @@ export const WrapNavbar = styled.div`
   color: #c6bdbd;
   margin: 0 9%;
   padding: 0 40px;
-  box-shadow: 7px 7px 7px #1b1212;
+  box-shadow: 7px 7px 7px #aa2424;
   > h4 {
     text-shadow: 7px 7px 7px #1b1212;
     :hover {
@@ -24,13 +24,15 @@ export const WrapNavbar = styled.div`
   }
 `;
 export const Nav = styled.div`
-  background-color: red;
+  background-color: #0f0f0f;
+
   padding: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: red;
   > h3 {
-    text-shadow: 7px 7px 7px #1b1212;
+    text-shadow: 7px 7px 7px #a52727;
     cursor: pointer;
 
     :hover {
@@ -52,7 +54,7 @@ export const Nav = styled.div`
 // Search Style
 
 export const InputWrap = styled.div`
-  background-color: red;
+  background-color: #0f0f0f;
   padding: 1.6% 0;
   display: flex;
   align-items: center;
@@ -67,7 +69,7 @@ export const Input = styled.input`
   padding: 7px 20%;
   background: grey;
   border-radius: 20px;
-  box-shadow: 7px 7px 7px #1b1212;
+  box-shadow: 0px 7px 7px #9a2e2e;
 
   ::placeholder {
     color: #4f2222;
@@ -80,7 +82,7 @@ export const InputButton = styled.button`
   padding: 16px 2.5%;
   color: black;
   border-radius: 20px;
-  box-shadow: 7px 7px 7px #1b1212;
+  box-shadow: 0px 7px 7px #9a2e2e;
 
   background-color: grey;
   :hover {
@@ -95,13 +97,15 @@ export const InputButton = styled.button`
 // Table Start
 
 export const TableWrap = styled.div`
-background-color: black;
+  background-color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   grid-gap: 80px;
   border: 1px solid red;
   padding: 5% 0;
+  height: 500px;
+  overflow: auto;
 `;
 
 export const TableData = styled.div`
@@ -114,13 +118,14 @@ export const TableData = styled.div`
 export const ImgTable = styled.img`
   width: 200px;
   height: 200px;
+  box-shadow: 7px 7px 7px #ab3c3c;
 `;
 
 export const NameTable = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
-  >h4{
+  > h4 {
     color: white;
   }
 `;

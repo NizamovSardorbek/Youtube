@@ -4,7 +4,6 @@ import { ImgTable, NameTable, TableData, TableWrap } from "./YoutubeStyle";
 const YoutubeTable = () => {
   const [data, setData] = useState(Dates);
   return (
-  
     <TableWrap>
       {data.map((value) => (
         <TableData>
