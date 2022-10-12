@@ -179,8 +179,13 @@ export const NameTable = styled.div`
 
 export const WrapAdd = styled.div`
   background-color: #0f0f0f;
+  padding-bottom: 13px;
+  padding-left: 30px;
   > button {
-    color: #c6bdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dba7a7;
     width: 200px;
     height: 35px;
     border-radius: 7px;
@@ -191,10 +196,15 @@ export const WrapAdd = styled.div`
       color: red;
       text-shadow: 7px 7px 7px #130606;
       cursor: pointer;
+      box-shadow: 3px 7px 7px #ba8b8b;
     }
     :active {
       transform: scale(0.3);
       transition: all 0.3s ease-in;
+    }
+    > i {
+      font-size: 20px;
+      margin-left: 5px;
     }
   }
 `;
