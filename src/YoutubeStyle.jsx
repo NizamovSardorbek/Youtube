@@ -118,7 +118,12 @@ export const TableData = styled.div`
 export const ImgTable = styled.img`
   width: 200px;
   height: 200px;
-  box-shadow: 7px 7px 7px #ab3c3c;
+  box-shadow: 7px 7px 7px #e59090;
+
+  :hover {
+    box-shadow: 7px 7px 7px #ab3c3c;
+    cursor: pointer;
+  }
 `;
 
 export const NameTable = styled.div`
@@ -127,5 +132,10 @@ export const NameTable = styled.div`
   gap: 20px;
   > h4 {
     color: white;
+    :hover {
+      color: red;
+      text-shadow: 7px 7px 7px #d21616;
+      cursor: pointer;
+    }
   }
 `;

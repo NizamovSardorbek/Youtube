@@ -9,7 +9,6 @@ const YoutubeTable = () => {
         <TableData>
           <ImgTable src={value.url} alt="" />
           <NameTable>
-            <h4>{value.id}</h4>
             <h4>{value.name}</h4>
           </NameTable>
         </TableData>
