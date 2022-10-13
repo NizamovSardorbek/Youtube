@@ -1,10 +1,9 @@
-import garfield from "./assets/garfield.jpeg"
 const Dates = [
   {
     id: 1,
-    name: "Qora Beva",
-    url: {garfield},
-    link: "https://www.freekino.net/movie/6-qora-beva",
+    name: "Shang-chi Legend ",
+    url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
+    link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
   },
   {
     id: 2,
@@ -91,47 +90,7 @@ const Dates = [
     url: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
     link: "https://www.youtube.com/watch?v=JfVOs4VSpmA",
   },
-  {
-    id: 12,
-    name: "Tor Marvel Kino",
-    url: "https://marveldom.ru/wp-content/uploads/2019/09/Chris-Hemsworth-Thor-Art-by-PC-Designs.jpg",
-    link: "https://www.youtube.com/watch?v=tgB1wUcmbbw",
-  },
-  {
-    id: 13,
-    name: "Siderman , Home Coming",
-    url: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-    link: "https://www.youtube.com/watch?v=rk-dF1lIbIg",
-  },
-  {
-    id: 14,
-    name: "Shang-chi Legend ",
-    url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
-    link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
-  },
-  {
-    id: 13,
-    name: "Siderman , Home Coming",
-    url: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-    link: "https://www.youtube.com/watch?v=rk-dF1lIbIg",
-  },
-  {
-    id: 14,
-    name: "Shang-chi Legend ",
-    url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
-    link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
-  },
-  {
-    id: 13,
-    name: "Siderman , Home Coming",
-    url: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-    link: "https://www.youtube.com/watch?v=rk-dF1lIbIg",
-  },
-  {
-    id: 14,
-    name: "Shang-chi Legend ",
-    url: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg",
-    link: "https://www.imdb.com/video/vi558809113/?playlistId=tt9376612&ref_=tt_pr_ov_vi",
-  },
+
+
 ];
 export default Dates;

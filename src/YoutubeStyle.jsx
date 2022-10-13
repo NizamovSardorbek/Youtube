@@ -121,11 +121,17 @@ export const TableWrap = styled.div`
   background-color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: center;
   grid-gap: 80px;
+  align-items: center;
   padding: 5% 0;
   height: 500px;
   overflow: auto;
+  color: white;
+  > h1 {
+    width: 400px;
+    color: red;
+    border: 1px solid red;
+  }
 `;
 
 export const TableData = styled.div`
@@ -159,8 +165,8 @@ export const NameTable = styled.div`
       cursor: pointer;
     }
     :active {
-      transform: scale(0.3);
-      transition: all 0.3s ease-in;
+      transform: scale(0.1);
+      transition: all 2s ease-in;
     }
   }
 
@@ -178,6 +184,7 @@ export const NameTable = styled.div`
 // Table Add
 
 export const WrapAdd = styled.div`
+  display: flex;
   background-color: #0f0f0f;
   padding-bottom: 13px;
   padding-left: 30px;
@@ -185,7 +192,7 @@ export const WrapAdd = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #dba7a7;
+    color: #473232;
     width: 200px;
     height: 35px;
     border-radius: 7px;
@@ -206,5 +213,23 @@ export const WrapAdd = styled.div`
       font-size: 20px;
       margin-left: 5px;
     }
+  }
+`;
+
+export const InputAdd = styled.input`
+  color: black;
+  background-color: grey;
+  border-radius: 7px;
+  margin-right: 20px;
+  text-align: center;
+  width: 300px;
+  text-shadow: 3px 7px 7px #aa2424;
+  font-size: 20px;
+  :hover {
+    cursor: pointer;
+  }
+  ::placeholder {
+    text-shadow: 3px 7px 7px #aa2424;
+    color: #2f1010;
   }
 `;

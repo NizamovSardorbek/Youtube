@@ -3,6 +3,8 @@ import Dates from "./YoutubeData";
 import { FiEdit } from "react-icons/fi";
 import { MdOutlineAutoDelete } from "react-icons/md";
 import { Oylik } from "./TableContext";
+import { FcCancel } from "react-icons/fc";
+import { BsPatchCheckFill } from "react-icons/bs";
 import {
   ImgTable,
   InputButton,
@@ -14,26 +16,30 @@ import { Mock } from "./Mock";
 const YoutubeTable = () => {
   const [data, setData] = useState(Mock);
   const [state, setState] = useContext(Oylik);
-
+  const [select, setSelect] = useState(null);
+  const [saveinput, setSaveinput] = useState("");
   const onDelete = (ids) => {
     setState(state.filter((val) => val?.id !== ids));
   };
+
   return (
     <TableWrap>
-      {state.map((value) => (
-        <TableData>
-          <ImgTable src={value.images} alt="" />
-          <NameTable>
-            <h4>{value.name}</h4>
-            <i onClick={() => onDelete(value?.id)}>
-              <MdOutlineAutoDelete />
-            </i>
-            <i>
-              <FiEdit />
-            </i>
-          </NameTable>
-        </TableData>
-      ))}
+      {state.length > 0 ? (
+        state.map((value) => (
+          <TableData>
+            <ImgTable src={value.images} alt="" />
+            <NameTable>
+              <h4>{value.name}</h4>
+
+              <i onClick={() => onDelete(value?.id)}>
+                <MdOutlineAutoDelete />
+              </i>
+            </NameTable>
+          </TableData>
+        ))
+      ) : (
+        <h1>the movie you wanted didn't come out </h1>
+      )}
     </TableWrap>
   );
 };
