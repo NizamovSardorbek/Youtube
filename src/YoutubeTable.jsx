@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useReducer, useState } from "react";
 import Dates from "./YoutubeData";
 import { FiEdit } from "react-icons/fi";
 import { MdOutlineAutoDelete } from "react-icons/md";
@@ -15,11 +15,10 @@ import {
 import { Mock } from "./Mock";
 const YoutubeTable = () => {
   const [data, setData] = useState(Mock);
-  const [state, setState] = useContext(Oylik);
-  const [select, setSelect] = useState(null);
-  const [saveinput, setSaveinput] = useState("");
+  const [state, dispatch] = useContext(Oylik);
+
   const onDelete = (ids) => {
-    setState(state.filter((val) => val?.id !== ids));
+    dispatch({ type: "delete", payload: ids });
   };
 
   return (

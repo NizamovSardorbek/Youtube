@@ -7,15 +7,14 @@ import photos from "./assets/Frozen.jpeg";
 const YoutubeAdd = () => {
   const [openInput, setOpenInput] = useState(false);
 
-  const [state, setState] = useContext(Oylik);
+  const [state, dispatch] = useContext(Oylik);
   const [inputvalue, setInputvalue] = useState("");
   const newOpen = () => {
     setOpenInput(!openInput);
   };
   const onAdd = () => {
     if (inputvalue.length > 0) {
-      let data = [...state, { name: inputvalue, images: photos }];
-      setState(data);
+      dispatch({ type: "adduser", payload3: inputvalue, images: photos });
       setInputvalue("");
     }
   };

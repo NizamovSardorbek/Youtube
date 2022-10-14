@@ -4,13 +4,11 @@ import { FcSearch } from "react-icons/fc";
 import { Oylik } from "./TableContext";
 const YoutubeSearch = () => {
   const [title, setTitle] = useState("");
-  const [state, setState] = useContext(Oylik);
+  const [state, dispatch] = useContext(Oylik);
 
   const onSearch = () => {
-    let res = state.filter((val) =>
-      val.name.toLowerCase().includes(title.toLowerCase())
-    );
-    setState(res);
+    dispatch({ type: "search", payload2: title });
+    // setState(res);
   };
   return (
     <div>

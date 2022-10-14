@@ -3,9 +3,9 @@ import { Nav, WrapNavbar } from "./YoutubeStyle";
 import { RiYoutubeFill } from "react-icons/ri";
 import Dates from "./YoutubeData";
 import { Oylik } from "./TableContext";
-const YoutubeNavbar = () => {
+const YoutubeNavbar = (props) => {
   const [data] = useState(Dates);
-  const [state, setState] = useContext(Oylik);
+  const [count, dispatch] = useContext(Oylik);
   return (
     <Nav>
       <i>
@@ -17,7 +17,7 @@ const YoutubeNavbar = () => {
         <h4>Serials</h4>
         <h4>Cartoons</h4>
         <h4>Sports</h4>
-        <h4>All : {state.length}</h4>
+        <h4>All : {count.length}</h4>
       </WrapNavbar>
     </Nav>
   );
