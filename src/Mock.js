@@ -12,22 +12,48 @@ import pawpul from "./assets/PawPatrul.jpeg"
 import shangchi from "./assets/Shang-chi.webp"
 import smile from "./assets/Smile.jpeg"
 import spidermen from "./assets/SpiderMan 4.jpeg"
-
+import amerika from "./assets/amerika.jpeg"
+import amiran from "./assets/amiran.webp"
+import benzema from "./assets/benzema.jpeg"
+import  city from "./assets/city.jpeg"
+import esmeralda from "./assets/esmeralda.jpeg"
+import footbal from "./assets/football.jpeg"
+import habib from "./assets/habibb.jpeg"
+import kocha from "./assets/kocha.jpeg"
+import mbappe from "./assets/mbappe.jpeg"
+import messi from "./assets/messi.jpeg"
+import qasoskor from "./assets/qasoskor.jpeg"
+import ronaldo from "./assets/ronaldo.jpeg"
+import roger from "./assets/roger.jpeg"
 
 export const Mock = [
-    {id:1, name:"Garfield Nermals Show",images:garfield},
-    {id:2, name:"Avatar: the way of the way", images:avatar},
-    {id:3, name:"Casper sleeps", images:casper},
-    {id:4, name:"Frozen the snow Queen", images:frozen},
-    {id:5, name:"Jurassic Park", images:jurassic},
-    {id:6, name:"Light year Toy Story", images:lightyear},
-    {id:7, name:"littlemonster", images:littlemonster},
-    {id:8, name:"Maverick Joseph Kosinski", images:maverick},
-    {id:9, name:"Nemo walt Disney", images:nemo},
-    {id:10, name:"Parker Jason Statham", images:parker},
-    {id:11, name:"PawPool the dogs", images:pawpul},
-    {id:12, name:"Shang-chi legend of the ten rings", images:shangchi},
-    {id:13, name:"Smile of the trillier", images:smile},
-    {id:14, name:"Spider-Man No Way Home-2021", images:spidermen},
-
+    {id:1, name:"Ronaldo wants to leave United",images:ronaldo,status:"sport"},
+    {id:2, name:"When will Khabib return to UFC?",images:habib,status:"sport"},
+    {id:3, name:"this year's golden ball winner",images:benzema,status:"sport"},
+    {id:4, name:"Is there a continuation of the Amiran series?",images:amiran,status:"serial"},
+    {id:5, name:"Roger ended his career",images:roger,status:"sport"},
+    {id:6, name:"When is the world cup?",images:footbal,status:"sport"},
+    {id:7, name:"Esmeralda",images:esmeralda,status:"serial"},
+    {id:8, name:"Manchester City was the best club of the year",images:city,status:"sport"},
+    {id:9, name:"Is there a sequel Ko'cha?",images:kocha,status:"serial"},
+    {id:10, name:"Captain Amerika",images:amerika,status:"movie"},
+    {id:11, name:"Will Messi come back",images:messi,status:"sport"},
+    {id:12, name:"Real Madrid's doors are closed",images:mbappe,status:"sport"},
+    {id:13, name:"Is there a continuation of the Amiran series?",images:amiran,status:"serial"},
+    {id:14, name:"Qasoskorlar",images:qasoskor,status:"serial"},
+    {id:15, name:"Avatar: the way of the way", images:avatar,status:"movie"},
+    {id:16, name:"Casper sleeps", images:casper,status:"cartoon"},
+    {id:17, name:"Frozen the snow Queen", images:frozen,status:"cartoon"},
+    {id:18, name:"Jurassic Park", images:jurassic,status:"movie"},
+    {id:19, name:"Light year Toy Story", images:lightyear,status:"cartoon"},
+    {id:20, name:"littlemonster", images:littlemonster,status:"cartoon"},
+    {id:21, name:"Maverick Joseph Kosinski", images:maverick,status:"serial"},
+    {id:22, name:"Nemo walt Disney", images:nemo,status:"cartoon"},
+    {id:23, name:"Parker Jason Statham", images:parker,status:"movie"},
+    {id:24, name:"PawPool the dogs", images:pawpul,status:"cartoon"},
+    {id:25, name:"Shang-chi legend of the ten rings", images:shangchi,status:"movie"},
+    {id:26, name:"Smile of the trillier", images:smile,status:"movie"},
+    {id:27, name:"Spider-Man No Way Home-2021", images:spidermen,status:"movie"},
+    {id:28, name:"Garfield Nermals Show",images:garfield,status:"cartoon"},
+    
 ]
