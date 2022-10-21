@@ -1,11 +1,12 @@
 import React, { useContext, useState } from "react";
 import { ImgTable, NameTable, TableData, TableWrap } from "../YoutubeStyle";
-import { SportMock } from "./SportMock";
 import { MdOutlineAutoDelete } from "react-icons/md";
+import { MockSerial } from "./MockSerial";
 import { Oylik } from "../TableContext";
 
-const SportYoutube = () => {
-  const [data, setData] = useState(SportMock);
+const SerialYoutube = () => {
+  // const [data, setData] = useContext(Oylik);
+  const [data, setData] = useState(MockSerial);
   const onDelete = (ids) => {
     setData(data.filter((val) => val.id !== ids));
   };
@@ -31,4 +32,4 @@ const SportYoutube = () => {
   );
 };
 
-export default SportYoutube;
+export default SerialYoutube;

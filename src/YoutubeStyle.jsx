@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 // NavbarStyle
@@ -27,6 +28,23 @@ export const WrapNavbar = styled.div`
     }
   }
 `;
+
+export const WrapAll = styled(NavLink)`
+  text-decoration: none;
+  text-shadow: 7px 7px 7px #1b1212;
+  color: #1b1212;
+  padding: 20px 0px;
+  :active {
+    transform: scale(0.3);
+    transition: all 0.3s ease-in;
+  }
+  :hover {
+    text-shadow: 7px 7px 7px red;
+    color: red;
+    cursor: pointer;
+  }
+`;
+
 export const Nav = styled.div`
   background-color: #0f0f0f;
 
@@ -48,18 +66,32 @@ export const Nav = styled.div`
       text-shadow: 7px 7px 7px red;
     }
   }
-
-  > i {
-    font-size: 50px;
-    :hover {
-      color: white;
-      cursor: pointer;
-    }
-    :active {
-      transform: scale(0.3);
-      transition: all 0.3s ease-in;
-    }
+`;
+export const IconYoutube = styled.i`
+  font-size: 60px;
+  :hover {
+    color: white;
+    cursor: pointer;
   }
+  :active {
+    transform: scale(0.3);
+    transition: all 0.3s ease-in;
+  }
+`;
+
+export const Icons = styled.i`
+  font-size: 30px;
+  margin-left: 19px;
+  margin-right: 20px;
+  :hover {
+    color: #917171;
+    cursor: pointer;
+  }
+  :active {
+    transform: scale(0.3);
+    transition: all 0.3s ease-in;
+  }
+  color: wheat;
 `;
 // Navbar boldi
 

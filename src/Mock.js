@@ -27,13 +27,13 @@ import ronaldo from "./assets/ronaldo.jpeg"
 import roger from "./assets/roger.jpeg"
 
 export const Mock = [
-    {id:1, name:"Ronaldo wants to leave United",images:ronaldo,status:"sport"},
-    {id:2, name:"When will Khabib return to UFC?",images:habib,status:"sport"},
+    {id:1, name:"Ronaldo wants to leave United",images:ronaldo,status:"sport",link:"https://www.imdb.com/video/vi531039513/?playlistId=tt0499549&ref_=tt_pr_ov_vi"},
+    {id:2, name:"Esmeralda",images:esmeralda,status:"serial"},
     {id:3, name:"this year's golden ball winner",images:benzema,status:"sport"},
     {id:4, name:"Is there a continuation of the Amiran series?",images:amiran,status:"serial"},
-    {id:5, name:"Roger ended his career",images:roger,status:"sport"},
+    {id:5, name:"Avatar: the way of the way", images:avatar,status:"movie"},
     {id:6, name:"When is the world cup?",images:footbal,status:"sport"},
-    {id:7, name:"Esmeralda",images:esmeralda,status:"serial"},
+    {id:7, name:"When will Khabib return to UFC?",images:habib,status:"sport"},
     {id:8, name:"Manchester City was the best club of the year",images:city,status:"sport"},
     {id:9, name:"Is there a sequel Ko'cha?",images:kocha,status:"serial"},
     {id:10, name:"Captain Amerika",images:amerika,status:"movie"},
@@ -41,7 +41,7 @@ export const Mock = [
     {id:12, name:"Real Madrid's doors are closed",images:mbappe,status:"sport"},
     {id:13, name:"Is there a continuation of the Amiran series?",images:amiran,status:"serial"},
     {id:14, name:"Qasoskorlar",images:qasoskor,status:"serial"},
-    {id:15, name:"Avatar: the way of the way", images:avatar,status:"movie"},
+    {id:15, name:"Roger ended his career",images:roger,status:"sport"},
     {id:16, name:"Casper sleeps", images:casper,status:"cartoon"},
     {id:17, name:"Frozen the snow Queen", images:frozen,status:"cartoon"},
     {id:18, name:"Jurassic Park", images:jurassic,status:"movie"},

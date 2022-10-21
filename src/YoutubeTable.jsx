@@ -24,9 +24,11 @@ const YoutubeTable = () => {
   return (
     <TableWrap>
       {state.length > 0 ? (
-        state.map((value) => (
-          <TableData>
-            <ImgTable src={value.images} alt="" />
+        state.map((value, index) => (
+          <TableData key={index}>
+            <a href={value?.link}>
+              <ImgTable src={value.images} alt="" />
+            </a>
             <NameTable>
               <h4>{value.name}</h4>
 
