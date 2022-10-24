@@ -5,8 +5,8 @@ import { CartoonMock } from "./CartoonMock";
 import { Oylik } from "../TableContext";
 
 const CartoonMovies = () => {
-  const [data, setData] = useContext(Oylik);
-  // const [data, setData] =useState(CartoonMock);
+  // const [data, setData] = useContext(Oylik);
+  const [data, setData] = useState(CartoonMock);
 
   const onDelete = (ids) => {
     setData(data.filter((val) => val.id !== ids));
@@ -28,7 +28,7 @@ const CartoonMovies = () => {
           </TableData>
         ))
       ) : (
-        <h1>the movie you wanted didn't come out </h1>
+        <h1>The movie you wanted didn't Come Out </h1>
       )}
     </TableWrap>
   );
